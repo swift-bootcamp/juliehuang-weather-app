@@ -9,10 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var api:String = ""
+    
+    @IBOutlet var city: UILabel!
+    @IBOutlet var btn: UIButton!
                             
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        self.city.text = "taipei"
     }
 
     override func didReceiveMemoryWarning() {
