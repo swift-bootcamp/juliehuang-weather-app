@@ -12,6 +12,10 @@
 		25123E89199F2633009885F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25123E87199F2633009885F2 /* Main.storyboard */; };
 		25123E8B199F2633009885F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25123E8A199F2633009885F2 /* Images.xcassets */; };
 		25123E97199F2633009885F2 /* juliehuang_weather_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25123E96199F2633009885F2 /* juliehuang_weather_appTests.swift */; };
+		25123EA7199F382E009885F2 /* sunny.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 25123EA6199F382E009885F2 /* sunny.jpeg */; };
+		2543352319A07A5700905106 /* black.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2543352219A07A5700905106 /* black.jpeg */; };
+		2543352519A07A5C00905106 /* less.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2543352419A07A5C00905106 /* less.jpeg */; };
+		25FA9BF819A0973B00E8910B /* background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 25FA9BF719A0973B00E8910B /* background.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,10 @@
 		25123E90199F2633009885F2 /* juliehuang-weather-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "juliehuang-weather-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25123E95199F2633009885F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25123E96199F2633009885F2 /* juliehuang_weather_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = juliehuang_weather_appTests.swift; sourceTree = "<group>"; };
+		25123EA6199F382E009885F2 /* sunny.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunny.jpeg; sourceTree = "<group>"; };
+		2543352219A07A5700905106 /* black.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = black.jpeg; sourceTree = "<group>"; };
+		2543352419A07A5C00905106 /* less.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = less.jpeg; sourceTree = "<group>"; };
+		25FA9BF719A0973B00E8910B /* background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +95,10 @@
 		25123E81199F2633009885F2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2543352419A07A5C00905106 /* less.jpeg */,
+				25FA9BF719A0973B00E8910B /* background.jpeg */,
+				2543352219A07A5700905106 /* black.jpeg */,
+				25123EA6199F382E009885F2 /* sunny.jpeg */,
 				25123E82199F2633009885F2 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -190,7 +202,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				25123E89199F2633009885F2 /* Main.storyboard in Resources */,
+				25FA9BF819A0973B00E8910B /* background.jpeg in Resources */,
 				25123E8B199F2633009885F2 /* Images.xcassets in Resources */,
+				2543352519A07A5C00905106 /* less.jpeg in Resources */,
+				25123EA7199F382E009885F2 /* sunny.jpeg in Resources */,
+				2543352319A07A5700905106 /* black.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +413,7 @@
 				25123E9C199F2633009885F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25123E9D199F2633009885F2 /* Build configuration list for PBXNativeTarget "juliehuang-weather-appTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +422,7 @@
 				25123E9F199F2633009885F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
